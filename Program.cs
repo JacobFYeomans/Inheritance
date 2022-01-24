@@ -17,6 +17,7 @@ namespace Inheritance
             Enemy enemy = new Enemy();
 
             player.health = 100;
+            player.lives = 3;
             Console.WriteLine(player.health);
             player.TakeDamage(10);
             Console.WriteLine(player.health);
@@ -25,6 +26,7 @@ namespace Inheritance
             Console.WriteLine(enemy.health);
             enemy.TakeDamage(15);
             Console.WriteLine(enemy.health);
+            
 
             Console.ReadKey(true);
         }

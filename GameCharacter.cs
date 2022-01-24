@@ -6,7 +6,13 @@ using System.Threading.Tasks;
 
 namespace Inheritance
 {
-    class Enemy : GameCharacter
+    class GameCharacter
     {
+        public int health;
+
+        public void TakeDamage(int damage)
+        {
+            health -= damage;
+        }
     }
 }
