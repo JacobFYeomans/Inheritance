@@ -8,7 +8,7 @@ namespace Inheritance
 {
     abstract class GameCharacter //cannot create instance of abstract classes
     {
-        public int health;
+        private int health;
 
         public void TakeDamage(int damage)
         {
