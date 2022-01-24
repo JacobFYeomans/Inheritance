@@ -8,5 +8,11 @@ namespace Inheritance
 {
     class Enemy
     {
+        public int health;
+
+        public void TakeDamage(int damage)
+        {
+            health -= damage;
+        }
     }
 }

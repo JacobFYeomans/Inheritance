@@ -8,5 +8,11 @@ namespace Inheritance
 {
     class Player
     {
+        public int health;
+
+        public void TakeDamage(int damage)
+        {
+            health -= damage;
+        }
     }
 }
