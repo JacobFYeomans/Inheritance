@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Inheritance
 {
-    class Enemy : GameCharacter
+    class Enemy : GameCharacter //player is a game character
     {
     }
 }

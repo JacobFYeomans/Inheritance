@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace Inheritance
 {
-    class Player : GameCharacter
+    class Player : GameCharacter //player is a game character
     {
-        public int lives = 3;
+        public int lives;
     }
 }
